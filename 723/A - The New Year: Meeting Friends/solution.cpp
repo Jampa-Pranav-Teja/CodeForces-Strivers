@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {    int x[3];    cin >> x[0] >> x[1] >> x[2];     sort(x, x + 3);     // Median minimizes sum of absolute distances    cout << abs(x[0] - x[1]) + abs(x[2] - x[1]);}
