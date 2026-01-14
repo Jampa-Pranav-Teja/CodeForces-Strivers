@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {    int t;    cin >> t;    int c= 0;    int maxc = 0;    while(t-- >0){        int a, b;        cin >> a >> b;        c = c - a + b;        if(c > maxc){            maxc = c;        }    }    cout << maxc;}
