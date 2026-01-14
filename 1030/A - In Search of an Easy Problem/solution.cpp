@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;// n -> people int main() {    int n;    cin >> n;    vector<int> a(n);    int flag = 0;    for(int i=0; i<n; i++) {        cin >> a[i];        if(a[i] == 1) {            flag = 1;            break;        }    }    if(flag == 1) {        cout << "HARD";    }    else{        cout << "EASY";    }    }
