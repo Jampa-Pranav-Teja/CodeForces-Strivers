@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {    int t;    cin >> t;    string n;    cin >> n;    int i=0;    int j=0;    while(i+j<t){      i+=j;      cout << n[i];      j++;    }    cout << endl;  }
