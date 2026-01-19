@@ -1,0 +1,1 @@
+#include <iostream>#include <string> using namespace std; void solve() {    string n;    cin >> n;    int count = (n.size() - 1) * 9;    count += (n[0] - '0');        cout << count << endl;} int main() {    int t;    cin >> t;    while (t--) {        solve();    }    return 0;}
